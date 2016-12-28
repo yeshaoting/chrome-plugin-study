@@ -1,0 +1,54 @@
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#app {
+  margin: 0px auto;
+  min-width: 500px;
+}
+div.menu {
+  padding: 10px 0px;
+}
+
+.detail-banner-img {
+    display: block;
+    /*width: 620px;*/
+    height: 383px;
+    padding-top: 10px;
+}
+
+.detail-content-en {
+  font-size: 26px;
+  line-height: 34px;
+  margin-top: 20px;
+}
+.detail-content-zh {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+.detail-content-desc {
+    margin-top: 16px;
+}
+blockquote {
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+}
+
+.icon-sound {
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -687px -386px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+.icon-sound, .icon-sound:active, .icon-sound:hover {
+    background-image: url(../images/daily.png);
+    width: 17px;
+    height: 16px;
+}
+i {
+    font-style: normal;
+}

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "每日一句",
+  "short_name": "one day, one word",
+  "description": "每日一句精选英文好句~",
+  "homepage_url": "http://github.com/yeshaoting",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon_64.png",
+    "48": "images/icon_64.png",
+    "128": "images/icon_128.png"
+  },
+
+  "permissions": [
+    "http://*/",
+    "https://*/",
+    "bookmarks",
+    "tabs",
+    "history"
+  ],
+  "browser_action": {
+    "default_title": "每日一句",
+    "default_icon": "images/icon_128.png",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' http://sentence.iciba.com/; object-src 'self'"
+}

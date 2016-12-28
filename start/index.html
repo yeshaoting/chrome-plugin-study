@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+  <title>每日一句</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="images/icon_128.png" />
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="js/lib/jquery.min.js"></script>
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="js/lib/bootstrap.min.js"></script>
+
+  <script src="js/lib/placeholder.min.js"></script>
+  <script src="js/lib/moment.min.js"></script>
+  
+  <script type="text/javascript" src="js/lib/csp/vue.min.js"></script>
+  <script type="text/javascript" src="js/lib/vue-resource.min.js"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <div class="menu">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">Profile</a></li>
+          <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+      </div>
+
+      <div class="detail">
+        <div class="detail-title">
+          <div class="detail-title-month"></div>
+          <ul class="detail-title-week"></ul>
+        </div>
+        <div class="detail-content">
+          <div class="detail-banner">
+            <img v-bind:src="picture2" class="placeholder detail-banner-img img-responsive center-block" options="size=620x383&text=Hello!" />
+          </div>
+          <div class="detail-content-en">{{content}} <i class="icon icon-sound"></i> </div>
+          <div class="detail-content-zh">{{note}}</div>
+          <blockquote class="detail-content-desc">{{translation}}</blockquote>
+        </div>
+      </div>
+
+      <!-- <div class="panel panel-default">
+        <div class="panel-heading">
+          {{caption}}
+        </div>
+        <div class="panel-body">
+          <h3>{{content}}</h3>
+          <h4>{{note}}</h4>
+          <img v-bind:src="picture2" class="img-responsive center-block" />
+          <p>{{translation}}</p>
+        </div>
+        <div class="panel-footer">
+          播放：{{tts}}
+        </div>
+      </div> -->
+    </div>
+  </div>
+</body>
+
+</html>
