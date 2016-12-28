@@ -15,7 +15,7 @@ window.onload = function() {
       tts: "",
     },
     ready: function() {
-      this.get('2016-11-12');
+      this.get('2016-11-13');
     },
     methods: {
       get: function(title) {
@@ -64,7 +64,6 @@ window.onload = function() {
         });
       },
       apply: function(data) {
-        //console.debug("data: %s", JSON.stringify(data));
         console.info("apply data into page~");
         this.$set('title', data.title);
         this.$set('content', data.content);
