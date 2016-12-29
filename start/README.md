@@ -79,7 +79,19 @@ $(document).ready(function() {
 });
 ```
 
-## 三、效果图
+## 三、插件加载
+
+进入chrome扩展程序，勾选右上方开发者模式，然后点击“加载已解压的扩展程序”。
+
+在弹出的文件查看对话框，选择开发的插件在磁盘上的存放位置。
+
+确认完成后，就能看到开发的插件“图片欣赏”，展示在下面的扩展程序列表里了。
+
+在chrome地址栏右侧的扩展插件中，就能看到并使用刚开发的插件了。
+
+![加载插件](http://7xkl4i.com1.z0.glb.clouddn.com/blog/Snip20161229_42.png)
+
+## 四、效果图
 
 ### 1. 插件效果图
 
@@ -89,7 +101,7 @@ $(document).ready(function() {
 
 ![独立页面效果](http://7xkl4i.com1.z0.glb.clouddn.com/blog/Snip20161229_41.png)
 
-## 四、参考文档
+## 五、参考文档
 
 - [入门：建立 Chrome 扩展程序](https://crxdoc-zh.appspot.com/extensions/getstarted)
 - [Chrome插件（Extensions）开发攻略](http://www.cnblogs.com/guogangj/p/3235703.html)
