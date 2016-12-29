@@ -1,0 +1,14 @@
+div.main {
+  width: 606px
+}
+
+div.head {
+  margin: 8px 14px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div.head a.refresh {
+  text-decoration: none;
+  cursor: pointer;
+}
