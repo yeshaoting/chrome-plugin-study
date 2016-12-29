@@ -74,6 +74,8 @@ window.onload = function() {
         this.$set('picture3', data.picture3);
         this.$set('caption', data.caption);
         this.$set('tts', data.tts);
+
+        // this.$els.audio.play();
       }
     }
   });

@@ -49,6 +49,17 @@ blockquote {
     width: 17px;
     height: 16px;
 }
+.icon-sound:hover {
+    background-position: -670px -386px;
+}
+.icon-sound {
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -687px -386px;
+    cursor: pointer;
+    margin-left: 4px;
+}
 i {
     font-style: normal;
 }
+
