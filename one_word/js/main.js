@@ -15,7 +15,7 @@ window.onload = function() {
       tts: "",
     },
     ready: function() {
-      this.get('2016-11-13');
+      this.get();
     },
     methods: {
       get: function(title) {
@@ -74,8 +74,6 @@ window.onload = function() {
         this.$set('picture3', data.picture3);
         this.$set('caption', data.caption);
         this.$set('tts', data.tts);
-
-        // this.$els.audio.play();
       }
     }
   });
